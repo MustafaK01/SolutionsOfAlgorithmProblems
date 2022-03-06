@@ -2,10 +2,11 @@ import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InsertDeleteGetRandom {
+public class RandomizedSet {
 	
     public List<Integer> set = new ArrayList<Integer>();
-    public InsertDeleteGetRandom() {
+	
+    public RandomizedSet() {
     }
     
     public boolean insert(int val) {
